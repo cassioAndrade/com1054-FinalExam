@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  font-size: 10px; 
+  height: 100%; 
+}
+
+body {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+p{
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%; 
+  margin: 0 auto; 
+
+
+}
+
+header {
+  width: 100%;
+  background-image: url(image/1024px-Rainbow-gradient-fully-saturated.svg.png);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #fff;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #343a40;;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+img {
+  max-width: 100%; /* If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size.*/
+}
+
+body > div > main > p{
+  display: block;
+  margin: 5% 25% 5% 25%;
+  text-align: justify;
+}
+
+body > div > main > section{
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: space-between;
+}
+
+footer{
+margin: 10px;
+padding: 50px
+}
+
+.left{
+text-align:left;
+float:left;
+margin: 15px;
+}
+
+footer > div.left > ul{
+list-style-type: none;
+}
+
+.right{
+float:right;
+text-align:right;
+margin: 15px;
+}
+
+.footer{
+text-align: center;
+}
+footer > div.right > ul{
+list-style-type: none;
+}
+
+div.footer > p{
+text-align: center;
+margin: 15px;
+}
+.center{
+text-align:center;
+list-style-type: none;
+margin: 15px;
+}
+
+footer > div.center > ul{
+list-style-type: none;
+}
+
+/*button styles*/ 
+
+/* EXPLAIN THIS STYLE RULE (1 mark) */ 
+
+.pricingTable button {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+
+
+.pricingTable section:first-of-type button {
+  border: 1px solid #007bff;  
+}
+
+
+/* FIX THIS STYLE RULE  (2 marks) */ 
+
+
+.pricingTable section:nth-of-type(2) button,
+.pricingTable section:nth-of-type(3) button {
+  background-color: #007bff; 
+  color: #fff; 
+  border: transparent; 
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('assets/OpenSans-Regular-webfont.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 30px;
+  }
+    
+  }
+
+/*1.) Navigate to https://getbootstrap.com/docs/4.4/examples/pricing/. What
+common layout pattern is used in this interface design?. Include your answer as
+a comment in main.css (1 mark). 
+
+- Flexbox.
+
+2.) On line 31 - 36 in main.css, there is a style rule. Explain this style rule in
+your own words (i.e. what element is being affected, what is being done to the
+element). Add your answer as a comment on line 30. (1 mark) 
+
+
+- Rem units to set up the entire layout, also everything becomes flexible, in the opposite of pixels, which is absolute size.
+
+3.) On line 48 - 54 in main.css, there are two syntax issues in this style rule. Find
+and fix them to ensure that this style rule is being applied. (2 marks) 
+
+5.) Style the text to match the Bootstrap example using modern and flexible
+fonts-sizing. Use your inspector tools on the live site in order to determine
+appropriate font-sizing. Incorporate an appropriate Google font and integrate
+the web font included in the assets folder. (3 marks) 
+
+6.) Using your knowledge of styling lists, styling links and creating a variety of
+layouts, recreate the Bootstrap interface example design (https://
+getbootstrap.com/docs/4.4/examples/pricing/). You may use either Grid or
+Flexbox to create the layout. (8 marks) 
+
+7.) Identify the technique used to make images responsive in this interface
+by adding a comment ( /* ANSWER NUMBER 4 IS RIGHT HERE! ) on the line in main.css where the technique can be found. (1 mark) 
+
+8.) Add a background image to div.bannerimage. Ensure the header image
+stretches to fit the whole width of the element and does not repeat. Source
+your images from either Pexels or Unsplash. (2 marks) 
+
+9.) What important responsive design meta tag is missing in the head of the
+HTML document? Add it to index.html. (1 mark) 
+
+- the viewport meta tag.
+
+10.) Using media queries, ensure that all text is larger on screens with
+viewports that are 600px or less. (1 mark) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
